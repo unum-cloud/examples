@@ -1,0 +1,6 @@
+[submodule "image-search"]
+	path = image-search
+	url = https://github.com/ashvardanian/image-search
+[submodule "acid-redis"]
+	path = acid-redis
+	url = https://github.com/ashvardanian/acid-redis

@@ -1,6 +1,0 @@
-ucall
-uform
-usearch
-
-numpy
-pillow

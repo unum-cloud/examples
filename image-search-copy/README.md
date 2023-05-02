@@ -1,1 +1,0 @@
-# Unum Image Search Demo
