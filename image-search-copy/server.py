@@ -1,5 +1,5 @@
 import numpy as np
-import PIL
+from PIL import Image
 
 import usearch
 import uform
@@ -11,7 +11,7 @@ index = usearch.Index(dim=256)
 
 
 @server
-def add(label: int, photo: PIL.Image.Image, description: str):
+def add(label: int, photo: Image.Image, description: str):
     image = model.preprocess_image(photo)
     tokens = model.preprocess_text(description)
     vector = model.encode_multimodal(image=image, text=tokens).detach().numpy()
