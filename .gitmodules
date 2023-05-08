@@ -4,3 +4,6 @@
 [submodule "acid-redis"]
 	path = acid-redis
 	url = https://github.com/ashvardanian/acid-redis
+[submodule "abusing-vector-search"]
+	path = abusing-vector-search
+	url = https://github.com/ashvardanian/abusing-vector-search
