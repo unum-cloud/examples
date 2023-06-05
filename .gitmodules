@@ -7,3 +7,6 @@
 [submodule "abusing-vector-search"]
 	path = abusing-vector-search
 	url = https://github.com/ashvardanian/abusing-vector-search
+[submodule "semantic-gallery-streamlit"]
+	path = semantic-gallery-streamlit
+	url = https://github.com/ashvardanian/semantic-gallery-streamlit
